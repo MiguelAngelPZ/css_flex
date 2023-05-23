@@ -1,0 +1,68 @@
+/*Selector universal*/
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+/*selectores*/
+
+/*id*/
+#principal {
+    color: white;
+    background-color: red;
+}
+
+/*etiqueta o tag*/
+section{
+    background-color: brown;
+    padding: 16px 8px 20px 10px;
+    /*orden de lado: top right bottom left*/
+    /*funciona para padding, border, margin*/
+}
+
+/*clase*/
+
+.elemento, .contenedor{ /*puede haber varios selectores en una clase*/
+    margin: 16px;
+    border: 2px red dotted; /*Todos los lados sean de dos pixeles*/
+    /*todos los lados ean de color rojo*/
+    /*Todos los lados sean punteados*/
+}
+
+.contenedor{
+    /*border: 2px yellow dashed;*/
+    border-top: 3px;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+}
+
+
+ul{
+    list-style: georgian;
+}
+
+nav > ul{
+    list-style: none;
+}
+
+#navegacion{
+    width: 100%;
+}
+
+#navegacion > ul > li{
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+}
+
+#navegacion > ul > li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
