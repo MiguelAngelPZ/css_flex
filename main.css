@@ -59,6 +59,7 @@ nav > ul{
     display: inline-block;
     width: 23%;
     text-align: center;
+    background-color: aqua;
 }
 
 #navegacion > ul > li:hover{
